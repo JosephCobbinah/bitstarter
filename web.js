@@ -7,7 +7,6 @@ var async   = require('async')
   , https   = require('https')
   , db      = require('./models');
 
-var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 8080);
