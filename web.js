@@ -1,7 +1,7 @@
 // Define routes for simple SSJS web app. 
 // Writes Coinbase orders to database.
 var async   = require('async')
-  , express = require('express')
+  , app = require('express')
   , fs      = require('fs')
   , http    = require('http')
   , https   = require('https')
